@@ -13,7 +13,7 @@ class Solution {
 public:
     int minimum(int a, int b)
     {
-        return a<b?a:b;
+        return a>b?b:a;
     }
     int minPathSum(vector<vector<int>>& grid)
     {
